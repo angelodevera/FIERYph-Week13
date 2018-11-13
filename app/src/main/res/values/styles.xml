@@ -11,7 +11,7 @@
     <style name="title">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textSize">70dp</item>
+        <item name="android:textSize">90dp</item>
         <item name="android:fontFamily">@font/comfortaa_bold</item>
         <item name="android:gravity">center</item>
     </style>
@@ -22,6 +22,14 @@
         <item name="android:textSize">20dp</item>
         <item name="android:fontFamily">@font/robotoregular</item>
         <item name="android:gravity">center</item>
+    </style>
+
+    <style name="scroll">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily">@font/robotoregular</item>
     </style>
 
     <style name="buttonhomepage">
