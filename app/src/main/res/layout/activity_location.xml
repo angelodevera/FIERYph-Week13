@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:layout_editor_absoluteY="81dp">
+    tools:layout_editor_absoluteY="81dp"
+    tools:context=".Location">
 
     <android.support.constraint.Guideline
         android:id="@+id/mapupbdr"
@@ -138,6 +139,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/call"
+        android:onClick="call"
         app:layout_constraintBottom_toTopOf="@+id/guideline13"
         app:layout_constraintEnd_toStartOf="@+id/guideline16"
         app:layout_constraintStart_toStartOf="@+id/guideline15"
@@ -152,6 +154,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/chatbutton"
+        android:onClick="messaging"
         app:layout_constraintBottom_toTopOf="@+id/guideline13"
         app:layout_constraintEnd_toStartOf="@+id/guideline18"
         app:layout_constraintStart_toStartOf="@+id/guideline16"
